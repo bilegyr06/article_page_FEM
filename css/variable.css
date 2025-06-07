@@ -5,7 +5,7 @@
     --Desaturated_Dark_Blue: hsl(214, 17%, 51%);
     --Grayish_Blue: hsl(212, 23%, 69%);
     --Light_Grayish_Blue: hsl(210, 46%, 95%);
-    --p_font_size: 13px;
+    --p_font_size: 0.8125rem;
     --manrope: 'Manrope', sans-serif;
-    --invisible_border: 0px solid transparent;
+    --invisible_border: 0rem solid transparent;
 }

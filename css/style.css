@@ -21,36 +21,33 @@ body{
     justify-content: center;
     flex-direction: column;
     flex-grow: 0.1;
-    min-width: 280px;
-    max-width: 350px;
-    margin: 40px 30px;
+    min-width: 17.5rem;
+    max-width: 22rem;
+    margin: 2.5rem 1.875rem;
 
 }
 
 .drawers{
     display: flex;
     border-top: var(--invisible_border);
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 0.625rem 0.625rem 0rem 0rem;
     width: 100%;
 }
 
-.text_container{
-    box-sizing: border-box;
-}
 main{
-    padding: 34px 30px 16px 30px;
+    padding: 2.125rem 1.875rem 1rem 2.125rem;
     background-color: #ffffff;
 }
 
 main h1{
   font-family: var(--manrope);  
-  font-size: 17px;
+  font-size: 1.125rem;
   color: var(--Very_Dark_Grayish_Blue);
   font-weight: 700;
 }
 
 main p{
-    margin-top: 20px;
+    margin-block-start: 1rem;
     font-family: var(--manrope);
     font-size: var(--p_font_size);
     color: var(--Grayish_Blue);
@@ -60,12 +57,12 @@ main p{
 footer{
     display: flex;
     flex-direction: row;
-    padding: 14px 30px 14px 30px;
+    padding: 0.875rem 1.875rem 0.875rem 1.875rem;
     justify-content: space-between;
     background-color: #ffffff;
-    border: 0px solid transparent;
-    border-radius: 0px 0px 10px 10px;
-    height: 68px;
+    border: 0rem solid transparent;
+    border-radius: 0rem 0rem 0.625rem 0.625rem;
+    height: 4.25rem;
 }
 
 .avatar{
@@ -75,12 +72,12 @@ footer{
 
 footer .avatar_pic{
     border: var(--invisible_border);
-    border-radius: 100px;
-    height: 40px
+    border-radius: 6.25rem;
+    height: 2.5rem;
 }
 
 .avatar_detail{
-    margin-left: 15px;
+    margin-left: 1rem;
 }
 .avatar_detail h2{
     font-family: var(--manrope);
@@ -99,10 +96,10 @@ footer .avatar_pic{
 }
 .share_button{
     border: var(--invisible_border);
-    padding: 4px 5px ;
-    border-radius: 45px;
+    padding: 0.25rem 0.35rem ;
+    border-radius: 2.8125rem;
     background-color: var(--Light_Grayish_Blue);
-    margin: 5px 0px;
+    margin: 0.3125rem 0rem;
 }
 .share_button path{
     fill: var(--Grayish_Blue);
@@ -120,25 +117,25 @@ footer .avatar_pic{
 
 }
 
-#p_inserted{
+.p_inserted{
     display: flex;
     font-family: var(--manrope);
     font-size: 13px;
     color: var(--Grayish_Blue);
     font-weight: 500;
-    letter-spacing: 5px;
+    letter-spacing: 0.3125rem;
     align-items: center;
 }
 
 .social_icons{
     display: flex;
-    margin-left: 6px;
+    margin-left: 0.3725rem;
 }
 
-#icon-facebook,#icon-twitter, #icon-pinterest{
-    width: 20px;
-    height: 20px;
-    margin: 8px 8px;
+.icon-facebook,.icon-twitter, .icon-pinterest{
+    width: 1.25rem;
+    height: 1.25rem;
+    margin: .5rem .5rem;
     align-items: center;
 }
 
@@ -149,49 +146,50 @@ footer .avatar_pic{
 
   .container{
     flex-direction: row;
-    min-width: 640px;
-    max-width: 650px;
+    min-width: 40rem;
+    max-width: 42.5rem;
     margin: auto;
     height: fit-content;
   } 
 
   .drawers{
-    width: 270px;
-    height: 278px;
+    width: 16.25rem;
+    height: 16.25rem;
     border-radius: 10px 0px 0px 10px;
   }
 
   .text_container{
-    height: fit-content;
+    height: 16.25rem;
   }
 
   main{
     border-top: var(--invisible_border);
-    border-radius:  0px 10px 0px 0px;
+    padding: 2rem 1.875rem 1.05rem 1.875rem;
+    border-radius:  0rem .625rem 0rem 0rem;
   }
 
   footer{
-    border-radius:  0px 0px 10px 0px;
+    border-radius:  0rem 0rem 0.625rem 0rem;
 
   }
   .inserted_div{
     background-color: var(--Very_Dark_Grayish_Blue);
     position: absolute;
-    top: -70px;
-    left: -100px;
+    top: -4.375rem;
+    left: -6.25rem;
     z-index: 1000;
-    padding: 5px 20px;
+    padding: .3125rem 1.25rem;
     border: var(--invisible_border);
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px rgb(130, 130, 130);
+    border-radius: 0.625rem;
+    box-shadow: .125rem .125rem .3125rem rgb(130, 130, 130);
 
 }  
    .inserted_div::after{
     content: "";
     position: absolute;
-    top: 45px;
-    left: 100px;
-    border-width: 10px;
+    top: 2.8125rem;
+    left: 6.25rem;
+    border-width: .625rem;
     border-style: solid;
     border-color: var(--Very_Dark_Grayish_Blue) transparent transparent transparent;
    }

@@ -7,11 +7,11 @@ const share_button_svg_path = document.querySelector('.share_button svg path');
 const avatar = document.querySelector('.avatar');
 const footer = document.querySelector('footer');
 const html_syntax_share = `<div class="inserted_div">
-                                <p id="p_inserted">SHARE</p>
+                                <p class="p_inserted">SHARE</p>
                                 <div class="social_icons">
-                                    <img id="icon-facebook" src="images/icon-facebook.svg" alt="facebook icon"> 
-                                    <img id="icon-twitter" src="images/icon-twitter.svg" alt="twitter icon"> 
-                                    <img id="icon-pinterest" src="images/icon-pinterest.svg" alt="pinterest icon">
+                                    <img class="icon-facebook" src="images/icon-facebook.svg" alt="facebook icon"> 
+                                    <img class="icon-twitter" src="images/icon-twitter.svg" alt="twitter icon"> 
+                                    <img class="icon-pinterest" src="images/icon-pinterest.svg" alt="pinterest icon">
                                 </div>
                             </div>`
 
